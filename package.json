@@ -1,13 +1,21 @@
 {
-  "name": "hooks",
+  "name": "component-pdf",
   "version": "1.0.0",
   "description": "",
-  "main": "./dist/index.min.js",
+  "main": "dist/index.min.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc && npm run minify",
-    "minify": "terser dist/index.js -o dist/index.min.js"
+    "build": "tsc --declaration && npm run minify",
+    "minify": "terser dist/index.js -o dist/index.min.js",
+    "publish": "publish"
   },
-  "keywords": ["react", "pdf", "pdf generator", "typescript", "pdf"],
+  "keywords": [
+    "react",
+    "pdf",
+    "pdf generator",
+    "typescript",
+    "pdf"
+  ],
   "author": "Nilton Oliveira",
   "license": "MIT",
   "dependencies": {
