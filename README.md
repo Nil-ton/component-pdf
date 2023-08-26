@@ -1,7 +1,7 @@
 # Overview
 A library to generate pdf from react components
 
-You can catch me on twitter: [@Nilton Oliveira](https://www.linkedin.com/in/nilton-oliveira-link/) or head over to my company's website for consultancy.
+You can catch me on twitter: [@Nilton Oliveira](https://www.linkedin.com/in/nilton-oliveira-link/).
 
 # Documentation
 ## Install
