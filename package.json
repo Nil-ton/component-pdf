@@ -1,6 +1,6 @@
 {
   "name": "component-pdf",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "description": "",
   "main": "dist/index.min.js",
   "types": "dist/index.d.ts",
@@ -8,6 +8,13 @@
     "build": "tsc --declaration && npm run minify",
     "minify": "terser dist/index.js -o dist/index.min.js",
     "deploy": "npm version patch && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nil-ton/component-pdf"
+  },
+  "bugs": {
+    "url": "https://github.com/Nil-ton/component-pdf/issues"
   },
   "keywords": [
     "react",
