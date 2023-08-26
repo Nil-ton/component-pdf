@@ -7,7 +7,7 @@
   "scripts": {
     "build": "tsc --declaration && npm run minify",
     "minify": "terser dist/index.js -o dist/index.min.js",
-    "publish": "publish"
+    "deploy": "npm version patch && npm publish"
   },
   "keywords": [
     "react",

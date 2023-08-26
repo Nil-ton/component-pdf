@@ -9,7 +9,7 @@ You can catch me on twitter: [@Nilton Oliveira](https://www.linkedin.com/in/nilt
 npm install component-pdf
 ```
 ## Usage
-The pdf is generated in the width and height of the component.
+The pdf is generated in the width of an A4 page and height of the component.
 ```tsx
 import { useComponentPDF } from 'component-pdf'
 
